@@ -27,3 +27,52 @@ const politeStatements = [
       "Thank you for your incredible patience! We’re putting together something truly special for you, and it will be worth the wait. We appreciate you sticking with us through this process.",
       "We understand that waiting can be tough, but we want to assure you that every moment has been worth it. We are almost done, and we truly appreciate your kindness and patience."
     ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const politeStatements = [
+  "Thank you for your patience! We’re almost there and truly appreciate your understanding.",
+  "You’re doing great! We’re wrapping up and grateful for your patience.",
+  "We appreciate your patience! We’re giving this our full attention.",
+  "Hang tight! We’re finalizing things and appreciate your understanding.",
+  "Thanks for waiting! We’re making sure everything is just right.",
+  "We’re almost done! Your patience means a lot to us.",
+  "Your patience is amazing! We’ll be with you shortly.",
+  "We’re just about there! Thanks for sticking with us.",
+  "Good things take time! We appreciate your patience.",
+  "You’ve been wonderful! We’ll be ready in no time.",
+  "Thanks for waiting! We’re taking extra care behind the scenes.",
+  "Almost there! We truly appreciate your patience.",
+  "Everything’s coming together! Thanks for waiting.",
+  "We’re working hard to make this special. Thanks for your patience!",
+  "Just a little longer! We appreciate you sticking with us.",
+  "We’re so close! Thanks for trusting the process.",
+  "Your patience means the world to us! Almost ready.",
+  "You’ve been so patient! We truly appreciate it.",
+  "We’re almost ready! Thanks for your understanding.",
+  "Getting closer! Your patience makes all the difference.",
+  "Thank you for waiting! We’re finishing up now.",
+  "You’ve been amazing! Just a few more moments.",
+  "Thanks for trusting us! We’ll be ready soon.",
+  "We’re wrapping things up! Your patience is truly appreciated.",
+  "Almost there! Thanks for your understanding.",
+  "So close! We appreciate your kindness and patience.",
+  "Your patience is remarkable! We’re nearly finished.",
+  "Thank you for sticking with us! We’re almost done.",
+  "We appreciate your patience! It’ll be worth the wait."
+];
