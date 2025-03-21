@@ -26,6 +26,7 @@ CORS(app, resources={
             "http://localhost:3000",
             "https://disease-prediction-app.vercel.app/",
             "https://disease-prediction-app.vercel.app",
+            "https://emotion-backend-final-production.up.railway.app/",
             "https://emotions-augment-ai-hackathon.vercel.app"  # Add this domain
         ],
         "methods": ["GET", "POST", "OPTIONS"],
@@ -40,6 +41,7 @@ socketio = SocketIO(app, cors_allowed_origins=[
     "http://localhost:5173",  
     "http://localhost:3000",
     "https://disease-prediction-app.vercel.app",
+    "https://emotion-backend-final-production.up.railway.app/",
     "https://emotions-augment-ai-hackathon.vercel.app"  # Add frontend
 ])
 
@@ -49,6 +51,7 @@ def after_request(response):
         'http://localhost:5173',  
         "http://localhost:3000",
         'https://disease-prediction-app.vercel.app',
+        "https://emotion-backend-final-production.up.railway.app/",
         'https://emotions-augment-ai-hackathon.vercel.app'  # Allow frontend domain
     ]
     
