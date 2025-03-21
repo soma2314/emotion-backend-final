@@ -70,6 +70,12 @@ GENAI_API_KEY = "AIzaSyBAwZanZoYfQFZBPAtPABCZroGUhlxUEs8"
 genai.configure(api_key=GENAI_API_KEY)
 client_elevenlabs = ElevenLabs(api_key=ELEVENLABS_KEY)
 
+
+
+@app.route('/')
+def home():
+    return "Welcome to the Emotion Detection API!"
+
 # # AssemblyAI Speech-to-Text
 # def transcribe_audio(audio_base64):
 #     """Transcribes audio using AssemblyAI API."""
