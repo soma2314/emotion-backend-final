@@ -1,0 +1,4 @@
+# Ignore backend-specific virtual environment
+venv/ 
+/venv
+/venv/
