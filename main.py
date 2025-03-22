@@ -1,4 +1,5 @@
 import eventlet
+import psutil
 eventlet.monkey_patch()  # Fix WebSocket issues
 import re
 from  utils.predictMoodUtils import predict_emotion_util 
@@ -389,5 +390,7 @@ def handle_only_user(data):
 
 # Run Server
 if __name__ == "__main__":
+    memory_usage = psutil.virtual_memory().percent
+    print(f"Memory usage: {memory_usage}%")
     print("🚀 Starting EmotionVox server at http://localhost:5050")
     socketio.run(app, host="0.0.0.0", port=5050, debug=True, use_reloader=False)
